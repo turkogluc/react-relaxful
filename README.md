@@ -1,5 +1,7 @@
 # react-relaxful
-React Redux REST Utility
+`React Redux REST Utility`
+
+It is developed in order to automate providing necessary and useful REST calls with creating the reducers, actions and services by using Redux Toolkit components under the hood
 
 #### Add module
 ```shell script
