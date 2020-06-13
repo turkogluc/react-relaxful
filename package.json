@@ -1,0 +1,35 @@
+{
+  "name": "@turkogluc/react-relaxful",
+  "version": "1.0.0",
+  "description": "React Redux REST Utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turkogluc/react-relaxful.git"
+  },
+  "keywords": [
+    "React",
+    "Redux",
+    "Rest",
+    "Util",
+    "Toolkit"
+  ],
+  "author": "Cemal Turkoglu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turkogluc/react-relaxful/issues"
+  },
+  "homepage": "https://github.com/turkogluc/react-relaxful#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.1.0",
+    "axios": "^0.19.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.1.3",
+    "react-scripts": "3.4.1",
+    "redux-rest-resource": "^0.24.5"
+  }
+}
