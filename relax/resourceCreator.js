@@ -11,9 +11,9 @@ class Resource {
     }
 }
 
-export const createManagedResource = function(name, path) {
+export const createManagedResource = function(name, path, host) {
     const slice = createCustomSlice(name);
     const actions = createCustomActionMethods(slice.actions);
-    const services = createCustomServiceMethods(path, actions);
+    const services = createCustomServiceMethods(host, path, actions);
     return new Resource(name, slice.reducer, slice.actions, services)
 };

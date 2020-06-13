@@ -1,5 +1,5 @@
 import {createSlice} from "@reduxjs/toolkit";
-import {capitalize} from "../util/StringHelper";
+import {capitalize} from "../util/stringHelper";
 import {
     fetchAll,
     fetchById,

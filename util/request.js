@@ -1,12 +1,9 @@
 import * as axios from 'axios';
 
-const host = 'https://5ee3417e8b27f3001609562a.mockapi.io';
-
 const request = (url, options) => {
-    let URL = host + '/api' + url;
 
     let config = {
-        url: URL,
+        url: url,
         ...options,
     };
 
