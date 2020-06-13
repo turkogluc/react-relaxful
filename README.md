@@ -3,6 +3,8 @@
 
 It is developed in order to automate providing necessary and useful REST calls with creating the reducers, actions and services by using Redux Toolkit components under the hood
 
+Read  More: [Blog Post](https://turkogluc.com/react-redux-toolkit-automation/)
+
 #### Add module
 ```shell script
 yarn add @turkogluc/react-relaxful
